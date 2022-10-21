@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+.contenedor{
+    max-width: 900px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin:auto;  
+    padding: 5px;  
+    height: 95vh;
+}
+
+header{
+    background-color: #d35f5f;        
+    height: 20vh;
+}
+
+nav{
+    background-color: #e9afaf;
+    height: calc(25vh - 10px);
+}
+
+main{
+    background-color: #e3dbdb;
+    height: 50vh;
+    padding: 10px;   
+}
+
+#mi-logo{
+    height: 70%;
+}
+
+#mi-marca{
+    height: 30%;
+}
+
+#mi-logo img{
+    height: 100%;
+}
+
+#mi-marca img{
+    height: 100%;
+}
+
+
+@media only screen and (min-width:700px){
+   
+    nav{
+        width: 30%;    
+        float: left;
+        height: calc(75vh - 10px);
+    }
+
+    main{
+        width: 70%;   
+        float: right;
+        height: calc(75vh - 10px);
+        column-count: 2;
+        padding: 25px;
+    }
+    
+    .clear{
+        clear: both;
+    }
+
+    #mi-logo{
+        height: 100%;
+        float: left;
+    }
+    
+    #mi-marca{
+        position: fixed;
+        bottom: 50px;           
+        height: 100px;
+        width: 60px;
+    }
+}

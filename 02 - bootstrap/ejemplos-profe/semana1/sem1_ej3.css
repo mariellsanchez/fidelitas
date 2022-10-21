@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+#mi-bloque{
+    border: 1px solid black; 
+    margin: auto; 
+    font-size: 2rem;    
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    padding-left: 105px;
+    padding-top: 130px;
+    background-color: #180161;
+    color: #ffffff;
+}
+
+@media only screen and (orientation:landscape){
+    #mi-bloque{        
+        width: 400px;
+        height: 100px;
+        padding-left: 150px;
+        padding-top: 25px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,70 @@
+.logo{
+  text-align: center;
+}
+
+.logo img{
+  width: 100%;
+  max-width: 200px;
+}
+
+.titulo{     
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;   
+}
+
+.titulo h1{
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgb(45, 85, 66);
+}
+
+.redes{
+  text-align: center;
+  font-size: 3rem;
+  justify-content: center;
+}
+
+.redes i{
+  margin-right: 0.5rem;
+}
+
+
+.pie-pagina{
+  background-color: #36383b;  
+}
+
+.pie-pagina a, .pie-pagina a:visited, .pie-pagina a:link, .pie-pagina{
+  color: white;
+}
+
+@media only screen and (min-width: 576px){
+  .logo img{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .redes{
+    font-size: 2rem;
+  }
+
+  .titulo h1{
+    font-size: 3.2rem;
+  }
+}
+
+
+@media only screen and (min-width: 768px){
+  .titulo h1{
+     font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .titulo h1{
+     font-size: 6rem;
+  }
+}

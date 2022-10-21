@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    margin-top: 1rem;
+}
+
+#mi-bloque{
+    border: 1px solid black;    
+}
+
+
+@media only screen and (min-width:400px){
+    #mi-bloque{
+        background-color: rgb(74, 202, 74);
+    }
+}
+
+@media only screen and (min-width:700px){
+    #mi-bloque{
+        background-color: rgb(50, 136, 50);
+    }
+}
+
+@media only screen and (min-width:900px){
+    #mi-bloque{
+        background-color: rgb(27, 77, 27);
+    }
+}
+
+

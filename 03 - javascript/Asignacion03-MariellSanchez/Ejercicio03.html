@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            Asignacion 
+        </title>
+    </head>
+    <body>
+        <h1> Asignación 03
+             </h1>
+        <h3> Mariell Sánchez Peraza </h3>
+        <h3> Ejercicio 03 </h3>
+        <script>
+            var numeros = []; 
+            var numero_ingresado;
+            numero_ingresado = parseInt(prompt("Ingrese un numero: "));
+            var i = 0;
+            while (i != 10) { 
+                numeros.push(numero_ingresado);
+                numero_ingresado = parseInt(prompt("Ingrese un numero: "));
+                i+=1;
+            }            
+            alert("Arreglo ascendentemente en UNICODE "+numeros.sort()+"\nArreglo descendentemente en UNICODE "+numeros.reverse());
+        </script>
+    </body>
+</html>

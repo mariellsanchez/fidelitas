@@ -1,0 +1,35 @@
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    margin-bottom: 15px;
+}
+    
+.section{
+    display: flex;
+}
+
+.btn{
+    text-align: center !important;
+    display: flex;
+    justify-content: center ;
+}
+
+.error{
+    border: red solid 2px;
+    border-radius: 5px;
+}
+
+.error-email{
+    border: red dashed 2px;
+    border-radius: 5px;
+}
+
+.succes{
+    border: rgb(66, 204, 75) solid 2px;
+    border-radius: 5px;
+}
+
+input{
+    width: 500px;
+}

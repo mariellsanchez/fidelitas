@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    
+  </head>
+  <body>
+    
+    
+    <div class="container">
+        <div class="bola" id="bola-uno">  </div>
+        <div class="bola" id="bola-dos">  </div>
+        <div class="bola" id="bola-tres">  </div>
+        <div class="bola" id="bola-cuatro">  </div>
+    </div>
+
+    
+    <style>
+        .container{
+            display: flex;
+            
+        }
+        .bola{
+            border-radius: 100%;
+            width: 50px;
+            height: 50px;
+            position: relative;
+            margin: 10px;
+            float: left;
+        }
+        #bola-uno{
+            background-color: aqua;
+        }
+        #bola-dos{
+            background-color: rgb(195, 255, 0);
+        }
+        #bola-tres{
+            background-color: rgb(153, 0, 255);
+        }
+        #bola-cuatro{
+            background-color: rgb(255, 0, 238);
+        }
+    </style>
+    <script type="text/javascript"> 
+
+        $("#bola-uno").click(function(){
+            $("#bola-uno").animate({
+                top: "+=100"
+            },4000,"easeOutBounce");
+        });
+
+        $("#bola-dos").click(function(){
+            $("#bola-dos").animate({
+                top: "+=100"
+            },4000,"easeOutSine");
+        });
+
+        $("#bola-tres").click(function(){
+            $("#bola-tres").animate({
+                top: "+=100"
+            },2000,"easeInOutBack");
+        });
+
+        $("#bola-cuatro").click(function(){
+            $("#bola-cuatro").animate({
+                top: "+=100"
+            },1000,"easeOutBack");
+        });
+
+    </script>
+	
+  </body>
+</html>

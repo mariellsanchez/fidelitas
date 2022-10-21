@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>tooltip demo</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+ 
+<p>
+  <h2>...</h2>
+  <input title="Soy un texto de ayuda">
+</p>
+<script>
+  $( document ).tooltip({
+    close:function(event,ui){
+        $("h2").html("Se ha cerrado el tooltip");
+    },
+    open: //otra función para cuando se abra el tooltip
+  });
+</script>
+ 
+</body>
+</html>

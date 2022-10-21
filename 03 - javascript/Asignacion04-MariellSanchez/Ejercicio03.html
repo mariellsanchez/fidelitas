@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            Asignacion 
+        </title>
+    </head>
+    <body>
+        <h1> Asignación 04
+             </h1>
+        <h3> Mariell Sánchez Peraza </h3>
+        <h3> Ejercicio 03 </h3>
+        <script>
+            function almacenar_letras(){
+                var entrada;
+                var array = [];
+                entrada = prompt("Digite una letra: ");
+                var i = 0;
+                while (i != 20) {
+                    array[i] = entrada;
+                    i = i + 1;
+                    entrada = prompt("Digite otra letra: ");
+                }
+                return array;
+            }
+            function contador_letras(array){
+                var vocales = ["a","e","i","o","u"]; 
+                var numero_vocales = 0, numero_consonantes = 0;
+                var j = 0;
+                alert(array[j]);
+                while (j != 20 ) {
+                    if (vocales.includes(array[j])){
+                        numero_vocales+=1;
+                    } else {
+                        numero_consonantes+=1;
+                    }
+                    j+=1;
+                }
+                return [numero_consonantes, numero_vocales];
+            }
+            function mostrar_resultado(numero_consonantes, numero_vocales){
+                alert("Hay "+numero_consonantes+" consonantes y "+numero_vocales+" vocales.");
+            }
+            let array = almacenar_letras();
+            let resultados = contador_letras(array);
+            mostrar_resultado(resultados[0], resultados[1]);
+        </script>
+    </body>
+</html>

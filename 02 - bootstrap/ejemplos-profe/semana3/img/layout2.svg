@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="layout2.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 178.32251 253.59158"
+   height="253.59158mm"
+   width="178.32251mm">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="474.66271"
+     inkscape:cx="1.1311356"
+     inkscape:zoom="0.7"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-14.649233,-22.338457)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Capa 1">
+    <rect
+       y="22.338457"
+       x="14.649233"
+       height="253.59158"
+       width="178.32251"
+       id="rect833"
+       style="fill:#d7e3f4;stroke:none;stroke-width:1.08834" />
+    <rect
+       y="22.338457"
+       x="14.649233"
+       height="28.314957"
+       width="178.32249"
+       id="rect835"
+       style="fill:#afc6e9;stroke:none;stroke-width:1.078;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:#dbdee3;stroke:none;stroke-width:0.966309;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect835-3"
+       width="133.19171"
+       height="197.89658"
+       x="14.649233"
+       y="50.653412" />
+    <rect
+       y="51.388851"
+       x="145.61111"
+       height="197.8654"
+       width="46.996353"
+       id="rect835-3-7"
+       style="fill:#d5e5ff;stroke:none;stroke-width:0.573952;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text869"
+       y="39.6875"
+       x="78.241074"
+       style="font-size:9.87777px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="39.6875"
+         x="78.241074"
+         id="tspan867"
+         sodipodi:role="line">Fila 1, columna 1</tspan></text>
+    <text
+       id="text873"
+       y="145.14285"
+       x="36.663689"
+       style="font-size:9.87777px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="145.14285"
+         x="36.663689"
+         id="tspan871"
+         sodipodi:role="line">Fila 2, columna 1</tspan></text>
+    <text
+       id="text877"
+       y="137.96132"
+       x="170.10941"
+       style="font-size:9.87777px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         id="tspan879"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="137.96132"
+         x="170.10941"
+         sodipodi:role="line">Fila 2</tspan><tspan
+         id="tspan889"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="150.30853"
+         x="170.10941"
+         sodipodi:role="line">columna 2</tspan></text>
+    <text
+       id="text883"
+       y="264.20535"
+       x="77.107147"
+       style="font-size:9.87777px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="264.20535"
+         x="77.107147"
+         id="tspan881"
+         sodipodi:role="line">Fila 3, columna 1</tspan></text>
+    <circle
+       r="0.1887991"
+       cy="143.29083"
+       cx="56.604588"
+       style="fill:#dbdee3;stroke:#000000;stroke-width:0.264583"
+       id="path885" />
+  </g>
+</svg>

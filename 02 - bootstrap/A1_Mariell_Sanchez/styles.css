@@ -1,0 +1,33 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.first{
+    background-color: pink;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+}
+
+.second{
+    background-color: turquoise;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+}
+
+
+@media screen and (min-width: 600px) {
+    .container{
+        display: flex;
+    }
+
+    .first{
+        width: 50%;
+    }
+    
+    .second{
+        width: 50%;
+    }
+}
+  

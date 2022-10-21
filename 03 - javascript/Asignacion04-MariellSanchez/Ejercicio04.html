@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            Asignacion 
+        </title>
+    </head>
+    <body>
+        <h1> Asignación 04
+             </h1>
+        <h3> Mariell Sánchez Peraza </h3>
+        <h3> Ejercicio 02 </h3>
+        <script>
+            function almacenar_numeros(){
+                var entrada;
+                var array = [];
+                entrada = parseInt(prompt("Digite una letra: "));
+                var i = 0;
+                while (i != 10) {
+                    array[i] = entrada;
+                    i = i + 1;
+                    entrada = parseInt(prompt("Digite otra letra: "));
+                }
+                return array;
+            }
+            function contador_letras(array){
+                num = parseInt(prompt("Digite el numero que desea buscar: "));
+                if (array.includes(num)){
+                    alert("Se ha encontrado el numero.");
+                } else {
+                    alert("No se ha encontrado el numero.");
+                }
+            }
+            function mostrar_resultado(array){
+                alert("Arreglo: "+array);
+            }
+            let array = almacenar_letras();
+            let resultados = contador_letras(array);
+            mostrar_resultado(array);
+        </script>
+    </body>
+</html>

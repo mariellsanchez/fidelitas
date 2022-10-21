@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  </head>
+  <body>
+    
+    
+    <button id="avanzar"> Avanzar </button>
+    <button id="retroceder"> Retroceder</button>
+    <div class="container">
+        <div id="elemento">  </div>
+    </div>
+
+    
+    <style>
+        #elemento{
+            background-color: aqua;
+            width: 50px;
+            height: 50px;
+            position: relative; 
+            float: left; 
+        }
+        .container{
+            margin: 80px;
+            display: flex;
+        }
+        button{
+            border: none;
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+            background-color: rgb(221, 221, 255);
+        }
+        button:hover{
+            background-color: rgb(150, 150, 150);
+        }
+        
+    </style>
+    <script type="text/javascript"> 
+
+        $("#avanzar").click(function(){
+            $("#elemento").animate({
+                left: "+=20",
+                width: "+=10%"
+            });
+        });
+        $("#retroceder").click(function(){
+            $("#elemento").animate({
+                left: "-=20",
+                width: "-=10%"
+            });
+        });
+
+    </script>
+	
+  </body>
+</html>

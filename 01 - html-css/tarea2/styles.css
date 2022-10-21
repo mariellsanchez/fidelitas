@@ -1,0 +1,63 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 20px;
+    padding: 0px;
+}
+
+nav{
+    color:rgb(63, 63, 239);
+    font-size: 22px;
+}
+
+.nav__edit{
+    float: left;
+}
+
+.new__msg{
+    float: right;
+}
+
+.search__bar{
+    margin-top: 100px;
+    border-radius: 50px;
+    color: #AAAAAA;
+    background-color: #EEEEEE;
+    padding: 2px 2px 2px 20px;   
+}
+
+.msg__content{
+    padding: 5px 0px;
+    margin-left: 160px;
+}
+
+.msg__hour{
+    float: right;
+    color: #AAAAAA;
+}
+
+.msg__text{
+    color: #777;
+}
+
+.icon{
+    width: 20px;
+    height: auto;
+    float: left;
+    fill: #AAAAAA;
+}
+
+p {
+    font-size: 20px;
+}
+
+img{
+    width: 120px;
+    height: auto;
+    border-radius: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+hr{
+    margin-top: 37px;
+}

@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    margin-top: 1rem;
+}
+
+#mi-bloque1{
+    border: 1px solid black;    
+}
+
+#mi-bloque2{
+    border: 1px dashed rgb(13, 75, 13);
+}
+
+@media only screen and (width:411px) and (height:731px){
+    #mi-bloque1{
+        background-color: rgb(144, 238, 144);
+    }    
+}
+
+@media only screen and (max-width: 800px){
+    #mi-bloque2{
+        background-color: rgb(65, 139, 114);
+    }
+}
+

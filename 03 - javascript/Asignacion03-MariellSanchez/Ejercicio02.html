@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            Asignacion 
+        </title>
+    </head>
+    <body>
+        <h1> Asignación 03
+             </h1>
+        <h3> Mariell Sánchez Peraza </h3>
+        <h3> Ejercicio 02 </h3>
+        <script>
+            var vocales = ["a","e","i","o","u"]; 
+            var numero_vocales = 0, numero_consonantes = 0;
+
+            var entrada = "", texto = "";
+            entrada = prompt("Digite una letra o 0 para terminar: ");
+            while (entrada != "0") {
+                texto += entrada;
+                entrada = prompt("Digite una letra o 0 para terminar: ");
+            }
+            
+            var i = 0;
+            while (i != texto.length ) {
+                alert("Se va a leer "+texto[i]);
+                if (vocales.includes(texto[i])){
+                    numero_vocales+=1;
+                } else {
+                    numero_consonantes+=1;
+                }
+                i+=1;
+            }
+
+            
+            alert("Hay "+numero_consonantes+" consonantes y "+numero_vocales+" vocales.");
+        </script>
+    </body>
+</html>

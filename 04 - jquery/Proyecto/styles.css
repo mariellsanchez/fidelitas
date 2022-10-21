@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    gap: 50px;
+    color: #5b506e !important;
+}
+
+.nav__button:hover{
+    color: #3e364b !important;
+    background-color: #ddcbff;
+    border-radius: 7px;
+    padding: 7px;
+    text-decoration: none !important;
+}
+
+a:link { 
+    color: #5b506e !important;
+    text-decoration: none !important; 
+}
+
+a:visited { 
+    color: #5b506e !important;
+    text-decoration: none !important; 
+}
+
+a:hover {
+    color: #3e364b !important;
+    background-color: #ddcbff;
+    text-decoration: none !important; 
+}
+
+a:active {
+    color: #706386 !important;
+    text-decoration: none !important; 
+}
+
+.logo{
+    height: 35px;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.cart-logo{
+    width: 30px;
+}
+
+.container-fluid{
+    background-color: #c5b4e3;
+    padding: 10px;
+}
+
+.carousel{
+    margin-top: 20px;
+}
+
+.img--carousel{
+    height: 350px;
+    width: auto;
+    display: block;
+    margin: 50px auto;
+}
+
+.carousel{
+    margin: auto;
+}
+
+.selflove-container{
+    background-color: #9678d3;
+    color: white;
+    margin: 0px;
+    padding: 50px 100px !important;
+    font-size: 24px;
+    text-align: center;
+}
+
+.text-tittle{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.social-media{
+    padding: 150px 100px !important;
+}
+
+.fa {
+    width: 75px;
+    height: 75px;
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: white;
+    color: #9678d3;
+    margin: 20px;
+}
+
+.fa:hover {
+    color: rgb(255, 255, 255);
+    background-color: #9678d3;
+    text-decoration: none;
+}
+
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+
+.card{
+    text-align: center;
+    width: 200px; 
+    height: 390px; 
+    margin-left: 100px !important;
+    margin-bottom: 50px !important;
+}
+
+.card-img-top{
+    width: 200px; 
+    height: 230px; 
+}
+
+.btn-shop{
+    border: 1px solid #5b506e !important;
+}
+
+.btn-shop:hover{
+    background-color: #5b506e !important;
+    color: white !important;
+    border: none;
+}
+
+.img-about{
+    width: 350px;
+    border-radius: 100%;
+}
+
+.tittle-about{
+    color:aliceblue;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.p-about{
+    color:aliceblue;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 300px;
+}
+
+.about-container{
+    text-align: center;
+    padding: 70px;
+}

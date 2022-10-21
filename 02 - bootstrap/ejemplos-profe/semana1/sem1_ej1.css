@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+
+#mi-bloque{
+    border: 1px solid black;    
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+
+    /* Reglas que se sobreescriben al imprimir */    
+    color: #0b0555;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media only print{
+    #mi-bloque{        
+        color: #7a0606;
+        font-family: sans-serif;
+    }
+}

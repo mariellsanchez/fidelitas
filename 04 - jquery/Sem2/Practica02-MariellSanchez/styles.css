@@ -1,0 +1,47 @@
+.container{
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#container--one{
+    color: rgb(85, 145, 171);;
+    background-color: rgb(127, 217, 255);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+#container--two{
+    color: rgb(182, 92, 181);
+    background-color: rgb(255, 127, 253);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+#container--three{
+    color: rgb(121, 185, 92);
+    background-color: rgb(168, 255, 127);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+#container--four{
+    color: rgb(104, 90, 182);
+    background-color: rgb(146, 127, 255);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+}
+

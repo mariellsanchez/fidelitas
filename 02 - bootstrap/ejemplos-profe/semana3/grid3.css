@@ -1,0 +1,10 @@
+.col{
+    background-color: rgb(241, 233, 221);
+    border: 1px solid black;
+}
+
+
+.col-md{
+    background-color: rgb(175, 226, 245);
+    border: 1px solid black;
+}

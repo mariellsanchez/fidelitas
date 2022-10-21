@@ -1,0 +1,6 @@
+.container-xl{
+    background-color: rgb(120, 199, 245);
+    border: 3px solid rgb(28, 28, 63);
+    font-size: 1.5rem;
+    padding: 3rem;
+}

@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            Asignacion 
+        </title>
+    </head>
+    <body>
+        <h1> Asignación 03
+             </h1>
+        <h3> Mariell Sánchez Peraza </h3>
+        <h3> Ejercicio 01 </h3>
+        <script>
+            var angulo1,angulo2,angulo3;
+            var triangulos = []; 
+            var resultado;
+            for (var i = 0; i < 3; i++) {
+                angulo1 = parseInt(prompt("Triangulo "+ i +"\nDigite el primer angulo del triangulo: "));
+                angulo2 = parseInt(prompt("Triangulo "+ i +"\nDigite el segundo angulo del triangulo: "));
+                angulo3 = parseInt(prompt("Triangulo "+ i +"\nDigite el tercero angulo del triangulo: "));
+                if (angulo1+angulo2+angulo3 != 180){
+                    resultado = "No es un triangulo";
+                } else if ((angulo1 > 90) || (angulo2 > 90) || (angulo3 > 90)){
+                    resultado = "El triangulo "+ i +" es obtuso";
+                } else if ((angulo1 < 90) & (angulo2 < 90) & (angulo3 < 90)){
+                    resultado = "El triangulo " + i +" es agudo";
+                } else if ((angulo1 == 90) || (angulo2 == 90) || (angulo3 == 90)){
+                    resultado = "El triangulo "+ i +" es recto";
+                } else {
+                    resultado = " Ocurrió un error";
+                }
+                triangulos[i] = resultado;
+             }
+             resultado = "";
+             for (triangulo in triangulos){
+                resultado += triangulos[triangulo]+"\n";
+             }
+
+            alert(resultado);
+        </script>
+    </body>
+</html>

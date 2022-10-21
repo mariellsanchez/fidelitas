@@ -1,0 +1,55 @@
+header{
+    background-color: rgb(230, 234, 206);
+}
+
+h1{
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.tittle{
+    font-size: 2rem;
+    color: rgb(107, 77, 14);
+    margin: 30px 0px;
+}
+
+.col-md-5{
+    text-align: center;
+}
+
+li{
+    text-align: left;
+    margin: 0% 25%;
+}
+
+p{
+    padding: 0 5%;
+}
+
+footer{
+    background-color: rgb(37, 37, 25);
+    color: beige;
+    text-align: center;
+    padding: 5%;
+}
+
+@media screen and (min-width: 768px) {
+    .logo{
+        float: right;
+    }
+    .logo--name{
+        float: left;
+    }
+    .tittle{
+        font-size: 2.6rem;
+    }
+    .row{
+        padding: 30px;
+    }
+    
+}
+  

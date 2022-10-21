@@ -1,0 +1,139 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 20px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+
+.personal__info{
+    color: #777;
+    font-size: 20px;
+}
+
+.personal__content{   
+    padding: 5px 0px;
+    margin-left: 250px;
+}
+
+.personal__img{
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+.button {
+    background-color: #b1d5fc;
+    border-radius: 80px;
+    text-decoration: none;
+    border: none;
+    color: rgb(78, 78, 78);
+    padding: 20px 34px;
+    text-align: center;        
+    font-size: 18px;
+    margin: 4px 30px;
+    cursor: pointer;
+    width: 250px;    
+}
+
+.button:hover {
+    background-color: #78b1fe; /* Green */
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.tittle{
+    text-align: center;
+    color: #508bda;
+}
+
+/* PLACES */
+.places{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.places__container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #ddeeff;
+    border-radius: 20px;
+}
+
+.places__img{
+    height: auto;
+    border-radius: 100px;
+    float: left;
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+}
+
+.places__info{
+    position: relative;
+    text-align: center;
+    background-color: #ddeeff;
+}
+
+
+/* MOVIES */
+.movies{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movies__container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.movies__img{
+    height: auto;
+    border-radius: 100px;
+    float: left;
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+}
+.movies__info{
+    position: relative;
+    text-align: center;
+    
+}
+
+/* CONTACTS */
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+    font-size: 18px;
+    margin-left: 5%;
+    text-align: center;
+}
+
+td{
+    padding: 5px;
+    border: 1px solid #a1c3f0;
+}
+
+.contacts__title{
+    color: #444;
+    font-weight: bold;
+    background-color: #a1c3f0;
+}
+
+.contacts__info{
+    color: #666;
+}
